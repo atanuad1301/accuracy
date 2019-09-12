@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 
 #prefix
-bot=commands.Bot(command_prefix='$')
+bot=commands.Bot(command_prefix='*')
 
 #on_Ready
 @bot.event
@@ -211,4 +211,4 @@ async def a(ctx,*,message):
 
 
 #token
-bot.run('NjAzMDg3NzE2MTY2NDAyMDU4.XTaTbw.GR0Vsv_RExoNIeeMAt5N835CCKc')
+bot.run('NjIxNzIwMDk2MTEyMzc3ODY2.XXpcbQ.CTMjlAufWyYFyVPadfKAx4v6Fu8')
